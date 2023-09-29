@@ -81,6 +81,9 @@ const checkCategory = transaction => {
 		case '[-] Kino':
 			categoryIcon = '<i class="fas fa-film"></i>'
 			break
+		case '[-] Podróze':
+			categoryIcon = '<i class="fa-solid fa-plane fa-bounce"></i>'
+			break
 	}
 }
 
@@ -90,7 +93,7 @@ const selectCategory = () => {
 
 const countMoney = money => {
 	const newMoney = money.reduce((x, y) => x + y)
-	availableMoney.textContent = `${newMoney}`
+	availableMoney.textContent = `${newMoney}`6
 }
 
 const deleteTransaction = id => {
