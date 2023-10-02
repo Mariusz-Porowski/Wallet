@@ -93,7 +93,7 @@ const selectCategory = () => {
 
 const countMoney = money => {
 	const newMoney = money.reduce((x, y) => x + y)
-	availableMoney.textContent = `${newMoney}`6
+	availableMoney.textContent = `${newMoney}`
 }
 
 const deleteTransaction = id => {
